@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/mobile-detect.min.js"></script>
+    <script>
+      var md = new MobileDetect(window.navigator.userAgent);
+      if(location.href.indexOf('desktop') < 0){
+        if(md.mobile() === null) location.href = 'desktop.html';
+      }else{  
+        if(md.mobile() !== null) location.href = './';
+      }
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>2021核四公投模擬器｜第17案續建核四請投不同意</title>
+    <meta name="description" content="核四現況如何？核四公投怎麼投？投下同意或不同意將帶來什麼後果？使用 2021 核四公投模擬器，瞭解你手中的一票對臺灣能源未來的代表意義。">
+    <meta property="og:title" content="2021核四公投模擬器｜第17案續建核四請投不同意">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cloud.greentw.greenpeace.org/17sayno">
+    <meta property="og:image" content="https://change.greenpeace.org.tw/2021/site/17sayno/images/preview.png">
+    <meta property="og:description" content="核四現況如何？核四公投怎麼投？投下同意或不同意將帶來什麼後果？使用 2021 核四公投模擬器，瞭解你手中的一票對臺灣能源未來的代表意義。">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&amp;family=Noto+Sans+TC:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="js/swiper-bundle.min.css">
+    <link rel="stylesheet" href="js/simplebar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script>
+      !function(e,t,a,n,g){e[n]=e[n]||[],e[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var m=t.getElementsByTagName(a)[0],r=t.createElement(a);r.async=!0,r.src="https://www.googletagmanager.com/gtm.js?id=GTM-WRM6WK6",m.parentNode.insertBefore(r,m)}(window,document,"script","dataLayer")
+      
+      
+    </script>
+  </head>
+  <body>
+    <div class="desktop">
+      <div class="desktop__map"></div>
+      <div class="desktop__main"><img class="desktop__logo" src="images/logo.svg" alt="Greenpeace logo">
+        <div class="desktop__content">
+          <div class="desktop__block">
+            <h1 class="desktop__title hide-text"><span class="text">續建核四公投模擬器</span></h1>
+            <p class="desktop__desc">請拿出手機掃描 QRcode 獲得最佳體驗</p>
+          </div>
+          <div class="desktop__qrcode-wrap"><img class="desktop__qrcode" src="images/qrcode.png"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

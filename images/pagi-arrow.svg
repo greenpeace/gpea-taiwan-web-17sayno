@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M12.5 25C19.4036 25 25 19.4036 25 12.5C25 5.59644 19.4036 0 12.5 0C5.59644 0 0 5.59644 0 12.5C0 19.4036 5.59644 25 12.5 25Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Group-13-Copy-2" transform="translate(1 1)">
+    <g id="Oval">
+      <use stroke="none" fill="#DFE964" xlink:href="#path_1" fill-rule="evenodd" />
+      <g clip-path="url(#clip_1)">
+        <use xlink:href="#path_1" fill="none" stroke="#000000" stroke-width="4" />
+      </g>
+    </g>
+    <path d="M0 2.55871e-14L7 6L0 12" transform="translate(10 7)" id="next" fill="none" fill-rule="evenodd" stroke="#000000" stroke-width="2" />
+  </g>
+</svg>
